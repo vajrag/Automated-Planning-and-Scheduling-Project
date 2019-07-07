@@ -1,0 +1,6 @@
+(open robot cupboard) 
+(goto robot cupboard table)
+(pick robot coke table) 
+(goto robot table cupboard)
+(place robot coke cupboard)
+

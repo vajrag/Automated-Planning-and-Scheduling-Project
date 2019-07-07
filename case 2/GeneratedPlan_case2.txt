@@ -1,0 +1,30 @@
+(look_cupboard robot) 
+(goto robot  cupboard) 
+(open robot cupboard)
+(look_table robot) 
+(goto robot cupboard table)
+(pick robot objects table)
+(goto robot table cupboard) 
+(place robot objects cupboard)
+(goto robot cupboard table) 
+(pick robot objects table) 
+(goto robot table cupboard)
+(place robot objects cupboard)
+(goto robot cupboard table) 
+(pick robot objects table) 
+(goto robot table cupboard)
+(place robot objects cupboard) 
+(goto robot cupboard table)
+(pick robot objects table) 
+(goto robot table cupboard)
+(place robot objects cupboard)
+(goto robot cupboard table) 
+(pick robot objects table) 
+(goto robot table cupboard) 
+(place robot objects cupboard)
+(goto robot cupboard table) 
+
+
+Assumptions:
+1. Number of objects on the table is assumed to be 5
+

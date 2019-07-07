@@ -1,0 +1,24 @@
+(look_cupboard robot)
+(goto robot  cupboard)
+(open robot cupboard)
+(look_table robot)
+(goto robot cupboard table)
+(perceiveObjects table)
+(pick robot objects table )
+(goto robot table cupboard)
+(place robot objects cupboard)
+(goto robot cupboard table)
+(pick robot objects table)
+(goto robot table cupboard)
+(place robot objects cupboard)
+(goto robot cupboard table)
+(pick robot objects table )
+(goto robot table cupboard)
+(place robot objects cupboard) 
+(goto robot cupboard table)
+
+
+Description:
+(look_cupboard robot) -- Robot looks for cupboard
+(goto robot  cupboard) -- Robot goes to the cupboard
+(open robot cupboard) -- Robot opens the cupboard door
